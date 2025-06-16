@@ -8,11 +8,9 @@ Guía para la instalación, configuración y ejecución de la API del proyecto *
 
 ### 1. Crear el entorno virtual
 
-Primero, crea un entorno virtual en la raíz del proyecto:
-
 ```bash
 python -m venv venv
-
+```
 ### 2. Activar el entorno virtual
 
 **En Windows:**
@@ -25,8 +23,6 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
----
-
 ### 3. Instalar los requerimientos
 
 Instala las dependencias necesarias del proyecto:
@@ -35,7 +31,6 @@ Instala las dependencias necesarias del proyecto:
 pip install -r requirements.txt
 ```
 
----
 
 ### 4. Lanzar la aplicación
 
